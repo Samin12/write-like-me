@@ -1,0 +1,22 @@
+{
+  "name": "write-like-me",
+  "version": "1.0.0",
+  "description": "Claude writes in your voice: one tested voice per format (YouTube scripts, titles, Skool posts, X, emails, DMs). Echo's trick, on your Claude subscription.",
+  "author": {
+    "name": "Samin Yasar",
+    "url": "https://github.com/Samin12"
+  },
+  "homepage": "https://github.com/Samin12/write-like-me",
+  "repository": "https://github.com/Samin12/write-like-me",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "ghostwriter",
+    "youtube",
+    "skool",
+    "echo"
+  ],
+  "icon": ".claude-plugin/icon.png"
+}

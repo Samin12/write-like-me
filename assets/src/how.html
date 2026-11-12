@@ -1,0 +1,36 @@
+<html><head><link rel="stylesheet" href="base.css"><style>
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px}
+.stack{display:flex;flex-direction:column;gap:10px;margin:22px 0 18px}
+.blk{border-radius:12px;padding:18px 22px;font-size:19px;display:flex;justify-content:space-between;align-items:center}
+.blk b{font-weight:650}
+.lora{background:var(--clay);color:#fff;height:58px}
+.kimi{background:#3D3D3A;color:#FAF9F5;height:250px;align-items:flex-end}
+.voice{background:var(--clay);color:#fff;height:58px}
+.claude{background:var(--sage);color:var(--sage-ink);height:250px;align-items:flex-end}
+.cap{font-size:18px;color:var(--ink2);line-height:1.5}
+.flow{display:flex;gap:12px;align-items:stretch;margin-top:30px}
+.f{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;font-size:16px;line-height:1.45;color:var(--ink2)}
+.f b{display:block;color:var(--ink);font-size:18px;margin-bottom:6px}
+.arrow{align-self:center;color:var(--clay);font-size:26px}
+</style></head><body>
+<div class="kicker">How it works</div>
+<h1>Echo's secret: the model already knows how you write.</h1>
+<div class="sub">Fulcrum's training just teaches Kimi K3 to use style it already learned, by pairing an outline with the real post. We do the same pairing at write time, on Claude.</div>
+<div class="cols">
+ <div class="card"><h2>Echo, open weights</h2>
+  <div class="stack"><div class="blk lora"><b>Echo LoRA</b><span>938 MB</span></div>
+   <div class="blk kimi"><b>Kimi K3 base model</b><span>1.56 TB · 2.78T params</span></div></div>
+  <div class="cap">Needs a multi-GPU server with well over a terabyte of GPU memory. Or buy credits on Fulcrum's API.</div></div>
+ <div class="card"><h2>write-like-me</h2>
+  <div class="stack"><div class="blk voice"><b>Your voice folder</b><span>~50 KB of text</span></div>
+   <div class="blk claude"><b>Claude, on your subscription</b><span>already paid for</span></div></div>
+  <div class="cap">Runs on your laptop through Claude Code. Your writing never leaves your machine except in the prompt to Claude.</div></div>
+</div>
+<div class="flow">
+ <div class="f"><b>1. Your facts</b>Plain notes: what to say, nothing about how.</div><div class="arrow">→</div>
+ <div class="f"><b>2. The right voice</b>Your core voice + this format's profile + your real examples.</div><div class="arrow">→</div>
+ <div class="f"><b>3. Claude writes</b>A clean call: no tools, no memory, nothing else steering it.</div><div class="arrow">→</div>
+ <div class="f"><b>4. Check</b>Em dashes, phrases you never use, length, layout.</div><div class="arrow">→</div>
+ <div class="f"><b>5. Repair once</b>Fixes what the check found, keeps every fact.</div>
+</div>
+</body></html>

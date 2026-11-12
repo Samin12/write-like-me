@@ -1,0 +1,186 @@
+{
+ "formats": [
+  {
+   "id": "youtube-script",
+   "name": "YouTube script",
+   "summary": "A body section of a video you read or talk from: a point, an analogy, a demo, a transition, an outro.",
+   "layout": "teleprompter",
+   "length": {
+    "unit": "words",
+    "min": 120,
+    "max": 700,
+    "typical": 350
+   },
+   "examples_in_prompt": 4
+  },
+  {
+   "id": "youtube-intro",
+   "name": "YouTube intro",
+   "summary": "The hook and intro, from the first word to the moment the video starts. Read word for word.",
+   "layout": "teleprompter",
+   "length": {
+    "unit": "words",
+    "min": 120,
+    "max": 330,
+    "typical": 240
+   },
+   "examples_in_prompt": 6
+  },
+  {
+   "id": "youtube-title",
+   "name": "YouTube title",
+   "summary": "Title options for one long-form video.",
+   "layout": "titles",
+   "length": {
+    "unit": "chars",
+    "min": 20,
+    "max": 500,
+    "typical": 250
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "youtube-description",
+   "name": "YouTube description",
+   "summary": "The description under a video: your standing links, the links for this video, chapters.",
+   "layout": "prose",
+   "length": {
+    "unit": "words",
+    "min": 40,
+    "max": 400,
+    "typical": 150
+   },
+   "examples_in_prompt": 4
+  },
+  {
+   "id": "skool-post",
+   "name": "Community post",
+   "summary": "A post to your community (Skool, Circle, Discord, Slack): a find, a build, an update, an opinion.",
+   "layout": "prose",
+   "length": {
+    "unit": "words",
+    "min": 30,
+    "max": 350,
+    "typical": 150
+   },
+   "examples_in_prompt": 6
+  },
+  {
+   "id": "skool-comment",
+   "name": "Community comment",
+   "summary": "A reply to a member under a post: an answer, a welcome, a nudge, praise.",
+   "layout": "dm",
+   "length": {
+    "unit": "words",
+    "min": 3,
+    "max": 80,
+    "typical": 25
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "x-post",
+   "name": "X post",
+   "summary": "A single post on X.",
+   "layout": "prose",
+   "length": {
+    "unit": "chars",
+    "min": 20,
+    "max": 280,
+    "typical": 140
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "x-reply",
+   "name": "X reply",
+   "summary": "A reply to someone else's post on X.",
+   "layout": "dm",
+   "length": {
+    "unit": "chars",
+    "min": 5,
+    "max": 280,
+    "typical": 90
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "x-thread",
+   "name": "X thread",
+   "summary": "A short thread on X, posts separated by a line with three dashes.",
+   "layout": "thread",
+   "length": {
+    "unit": "words",
+    "min": 80,
+    "max": 450,
+    "typical": 220
+   },
+   "examples_in_prompt": 4
+  },
+  {
+   "id": "linkedin-post",
+   "name": "LinkedIn post",
+   "summary": "A post on LinkedIn.",
+   "layout": "prose",
+   "length": {
+    "unit": "words",
+    "min": 40,
+    "max": 300,
+    "typical": 140
+   },
+   "examples_in_prompt": 6
+  },
+  {
+   "id": "newsletter",
+   "name": "Newsletter",
+   "summary": "An email newsletter issue or section.",
+   "layout": "prose",
+   "length": {
+    "unit": "words",
+    "min": 150,
+    "max": 1200,
+    "typical": 500
+   },
+   "examples_in_prompt": 4
+  },
+  {
+   "id": "email-business",
+   "name": "Business email",
+   "summary": "An email to a sponsor, client, vendor, partner or contractor.",
+   "layout": "email",
+   "length": {
+    "unit": "words",
+    "min": 8,
+    "max": 180,
+    "typical": 60
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "email-personal",
+   "name": "Personal email",
+   "summary": "An email to a friend, member, viewer, coach or a support desk.",
+   "layout": "email",
+   "length": {
+    "unit": "words",
+    "min": 5,
+    "max": 150,
+    "typical": 40
+   },
+   "examples_in_prompt": 8
+  },
+  {
+   "id": "dm",
+   "name": "DM",
+   "summary": "A direct message on any app: one to three short messages.",
+   "layout": "dm",
+   "length": {
+    "unit": "words",
+    "min": 2,
+    "max": 80,
+    "typical": 20
+   },
+   "examples_in_prompt": 8
+  }
+ ]
+}

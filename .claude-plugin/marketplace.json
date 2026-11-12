@@ -1,0 +1,15 @@
+{
+  "name": "write-like-me",
+  "owner": {
+    "name": "Samin Yasar",
+    "url": "https://github.com/Samin12"
+  },
+  "plugins": [
+    {
+      "name": "write-like-me",
+      "source": "./",
+      "description": "Claude writes in your voice, one tested voice per format. Runs on your Claude subscription."
+    }
+  ],
+  "description": "write-like-me: Claude writes in your voice, one tested voice per format."
+}

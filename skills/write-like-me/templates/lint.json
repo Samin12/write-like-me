@@ -1,0 +1,76 @@
+{
+ "rules": [
+  {
+   "id": "em-dash",
+   "type": "regex",
+   "pattern": "[—–]",
+   "severity": "error",
+   "message": "No em or en dashes. Use a comma, a full stop or 'and'."
+  },
+  {
+   "id": "ai-phrases",
+   "type": "phrases",
+   "severity": "error",
+   "message": "Reads like AI. Say it plainly.",
+   "phrases": [
+    "here's the thing",
+    "the truth is",
+    "the reality is",
+    "game changer",
+    "game-changer",
+    "let's dive in",
+    "let's dive deep",
+    "deep dive into",
+    "delve",
+    "in today's fast-paced",
+    "i hope this email finds you well",
+    "i hope this finds you well",
+    "it's worth noting",
+    "needless to say",
+    "rest assured",
+    "don't hesitate to",
+    "buckle up",
+    "unlock the power",
+    "unleash",
+    "elevate your",
+    "in the ever-evolving",
+    "navigate the landscape",
+    "tapestry",
+    "a testament to",
+    "what if i told you",
+    "stay tuned",
+    "without further ado",
+    "in conclusion",
+    "i'm thrilled to announce",
+    "excited to share",
+    "it's not just"
+   ]
+  },
+  {
+   "id": "emoji-bullets",
+   "type": "regex",
+   "pattern": "^\\s*[\\U0001F300-\\U0001FAFF\\u2705\\u2728\\u27A1]",
+   "severity": "warn",
+   "message": "Emoji used as a bullet. Only keep it if your real writing does this."
+  },
+  {
+   "id": "hashtags",
+   "type": "regex",
+   "pattern": "(?<!\\w)#[A-Za-z]\\w+",
+   "severity": "warn",
+   "message": "Hashtag. Only keep it if your real writing uses them."
+  },
+  {
+   "id": "length",
+   "type": "length",
+   "severity": "warn",
+   "message": "Outside this format's usual length."
+  },
+  {
+   "id": "layout",
+   "type": "layout",
+   "severity": "error",
+   "message": "Breaks this format's layout."
+  }
+ ]
+}

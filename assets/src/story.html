@@ -1,0 +1,27 @@
+<html><head><link rel="stylesheet" href="base.css"><style>
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px}
+.step .when{font-size:15px;font-weight:700;color:var(--clay);letter-spacing:1px;text-transform:uppercase}
+.step h2{margin:10px 0 14px;font-size:28px;line-height:1.2}
+.step p{font-size:18px;line-height:1.5;color:var(--ink2)}
+.big{font-family:"Iowan Old Style",Georgia,serif;font-size:44px;margin:18px 0 4px;color:var(--ink)}
+.small{font-size:14px;color:var(--muted)}
+.step.us{background:#2B2A27;border-color:#2B2A27}.step.us h2,.step.us .big{color:#FAF9F5}.step.us p{color:#CFCCC2}.step.us .small{color:#A9A69C}
+</style></head><body>
+<div class="kicker">The story</div>
+<h1>AI solved writing. Then it got stuck on a server you can't buy.</h1>
+<div class="row">
+ <div class="card step"><div class="when">Sep 30, 2026</div><h2>Fulcrum launches Echo</h2>
+  <p>A writing model that copies anyone's style. It beat the frontier models at style imitation.</p>
+  <div class="big">&lt;$5K</div><div class="small">to train. Paid credits only, on their site.</div></div>
+ <div class="card step"><div class="when">Nov 9, 2026</div><h2>They open the weights</h2>
+  <p>Echo goes up on Hugging Face under MIT. It's a small add-on (a LoRA), not a whole model.</p>
+  <div class="big">938 MB</div><div class="small">the Echo adapter file</div></div>
+ <div class="card step"><div class="when">The catch</div><h2>It sits on top of Kimi K3</h2>
+  <p>The add-on only works on Moonshot's Kimi K3. That base model is enormous.</p>
+  <div class="big">1.56 TB</div><div class="small">2.78 trillion parameters. No Mac holds it.</div></div>
+ <div class="card step us"><div class="when" style="color:#E8A285">What we did</div><h2>Same trick, on Claude</h2>
+  <p>Your writing, a voice per format, and checks, as a tiny add-on to the Claude subscription you already pay for.</p>
+  <div class="big">~50 KB</div><div class="small">a folder of text files</div></div>
+</div>
+<div class="foot">Sources: echo.fulcrum.inc, huggingface.co/fulcrumresearch/echo, huggingface.co/moonshotai/Kimi-K3</div>
+</body></html>
